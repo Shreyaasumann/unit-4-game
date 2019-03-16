@@ -1,0 +1,108 @@
+body {
+    background-image:url("../images/back.groung.jpg");
+    background-size: cover;
+    overflow: hidden;
+    font-family: comic sans ms !important;
+}
+
+#instructions {
+    background-color: rgb(233, 214, 236);
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+}
+
+#randomNumDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 15%;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+#randomNun, #score {
+    display: flex;
+    justify-content: center;
+    align-items: Center;
+    background-color: white;
+    color: #a3ec81;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+#winLoss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    height: 15%;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+#crystals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#totalScore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 10%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#score {
+    color: #81caec
+}
+p, strong {
+    font-size: 18px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#winLoss, #randomNumDiv, #totalScore, #crystals, #instructions {
+    border: 1px rgb(119, 223, 192);
+    border-radius: 10px;
+}
+
+button {
+    box-shadow: 0 8px rgb(134, 223, 215);
+    display: block;
+    border-radius: 10px;
+    outline: none;
+}
+
+button:hover {
+    box-shadow: 0 4px #a788e0;
+    top: 2px;
+}
+
+button:active {
+    box-shadow: none;
+    top: 2px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+
+
